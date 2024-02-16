@@ -1,0 +1,95 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.login-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1.5rem;
+  margin-block: auto;
+}
+
+.login-panel .wp {
+  display: flex;
+  justify-content: center;
+}
+
+.login-panel .box-header {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 10px;
+  margin-bottom: 47px;
+}
+
+.login-panel .box-panel {
+  background-color: #fff;
+  padding-inline: 56px;
+  padding-block: 44px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+  width: 30%;
+  align-self: center;
+}
+.login-panel .box-panel .box-header p {
+  color: #6358dc;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.login-panel .box-panel .box-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+}
+.login-panel .box-panel .box-body .input-field {
+  display: flex;
+  background-color: #ececec;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 8px;
+}
+.login-panel .box-panel .box-body .input-field .input-icon {
+  align-self: center;
+}
+.login-panel .box-panel .box-body .input-field .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.login-panel .box-panel .box-body .input-field .wrapper label {
+  margin: 0;
+  padding: 0;
+}
+.login-panel .box-panel .box-body .input-field .wrapper input {
+  background: none;
+  border: none;
+}
+.login-panel .box-panel .box-body .input-field .wrapper input:focus {
+  outline: none;
+}
+.login-panel .box-panel .box-body .btn-wrapper {
+  width: 100%;
+}
+.login-panel .box-panel .btn-wrapper .btn-panel {
+  background-color: #6358dc;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.login-panel .box-panel .btn-wrapper .btn-panel:hover {
+  transition: 0.3s;
+  background-color: #5249b6;
+}
+
+.nav-color {
+  background-color: #060047;
+}
+
+.side-color {
+  background-color: #301e67;
+}
